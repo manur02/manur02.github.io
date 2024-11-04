@@ -1,0 +1,235 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+/* Base Styles */
+body {
+    background-color: #d6ccc2;
+    font-family: 'Open Sans', serif;
+    padding-top: 54px;
+    color: #00000094;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.35rem;
+}
+
+/* Social Icons */
+.list-social-icons a {
+    color: #6c584c;
+}
+
+.list-social-icons a:hover {
+    color: #000000;
+}
+
+.list-social-icons a .fa-lg {
+    font-size: 1.75rem;
+}
+
+/* Icon Styles */
+.list-icons {
+    font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+    color: #000000;
+}
+
+/* Navigation Bar */
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    #sideNav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+    }
+
+    #sideNav .navbar-brand {
+        display: flex;
+        margin: auto auto 0;
+        padding: .5rem;
+    }
+
+    #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: .5rem solid rgba(255, 255, 255, .2);
+    }
+
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+}
+
+/* Section Styles */
+section.resume-section {
+    /* border-bottom: 1px solid #dee2e6;
+     */
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+/* Color Utilities */
+.bg-primary {
+    background-color: #6c584c !important;
+}
+
+.text-primary {
+    color: #6c584c !important;
+}
+
+/* Link Styles */
+a {
+    color: #6c584c;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #6c584c;
+}
+
+
+#lang {
+    font-size: 20px !important; /* Ensures the size is applied */
+    margin-right: 5px;
+    text-align: center;
+
+}
+
+.list-inline {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    list-style: none; /* Remove list style */
+}
+
+.list-inline-item {
+    display: inline-block; /* Allows for block-like spacing */
+    margin: 0 10px; /* Space between list items */
+}
+
+.list-social-icons a {
+  color: #6c584c; 
+  margin: 0; /* Remove margin from anchor */
+    font-size: 2rem; /* Increase icon size */
+    display: inline-flex; /* Use flex for alignment */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border-radius: 50%; /* Make it circular */
+    background-color: #6c584c; /* Background color */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+
+/* Ensure icon circles are centered */
+.list-social-icons .fa-stack {
+    width: 2.5em; /* Adjust as needed for circle size */
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center; /* Center the icon within the circle */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Adjust inner icon size and color */
+  .list-social-icons .fa-stack-1x {
+    margin-left: 1px;
+    font-size: 1.1em; /* Adjust icon size */
+  }
+  
+
+/* Additional settings for very small screens */
+@media (max-width: 576px) {
+    #about {
+        padding: 2rem 0.5rem; /* Further reduce padding on very small screens */
+    }
+
+    #about h1 {
+        font-size: 2rem; /* Smaller font for extra-small screens */
+    }
+
+    #about p {
+        font-size: 0.5rem;
+    }
+}
